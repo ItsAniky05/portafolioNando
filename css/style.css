@@ -564,7 +564,7 @@ main {
 
 .container-cards .card:hover .imgBx {
     top: -100px;
-    scale: 0.75;
+    transform: scale(0.75);
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
 }
 
