@@ -5,7 +5,7 @@ const archivosCahce = [
     "/css/style.css",
     "/js/app.js",
     "/js/script.js",
-
+    "/manifest.json"
 ]
 
 self.addEventListener('install', e => {
