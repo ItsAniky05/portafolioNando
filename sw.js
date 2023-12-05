@@ -30,7 +30,8 @@ const archivosCahce = [
     "/img/mia.jpeg",
     "/img/paseos.jpeg",
     "/img/vagabond.png",
-    "/img/videojuego.jpg"
+    "/img/videojuego.jpg",
+    "/img/index.jpeg"
 ]
 
 self.addEventListener('install', e => {
