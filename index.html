@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="PWA">
     <title>Portafolio Digital</title>
-    <link rel="stylesheet" href="manifest.json">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/style.css">
     <link rel="apple-touch-icon" href="img/icons/icon196.png">
 
@@ -85,10 +85,13 @@
                     <div class="icon-list-col">
                         <div class="icon-list">
                             <ul>
-                                <li><i class="fa-solid fa-angle-right"></i><strong>Nombre: </strong> <span>José Armando Suárez Salazar</span></li>
-                                <li><i class="fa-solid fa-angle-right"></i><strong>Fecha de Nacimiento: </strong> <span>05-12-2002</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i><strong>Nombre: </strong> <span>José Armando
+                                        Suárez Salazar</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i><strong>Fecha de Nacimiento: </strong>
+                                    <span>05-12-2002</span></li>
                                 <li><i class="fa-solid fa-angle-right"></i><strong>Edad: </strong> <span>21</span></li>
-                                <li><i class="fa-solid fa-angle-right"></i><strong>Ciudad: </strong> <span>Rincon de Romos, Ags.</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i><strong>Ciudad: </strong> <span>Rincon de
+                                        Romos, Ags.</span></li>
 
                             </ul>
                         </div>
@@ -97,9 +100,12 @@
                         <div class="icon-list">
                             <ul>
 
-                                <li><i class="fa-solid fa-angle-right"></i><strong>Correo: </strong> <span>armandst05@outlook.com</span></li>
-                                <li><i class="fa-solid fa-angle-right"></i><strong>Telefono: </strong> <span>+52 4659553714</span></li>
-                                <li><i class="fa-solid fa-angle-right"></i><strong>Ciudad: </strong> <span>Rincon de Romos, Ags.</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i><strong>Correo: </strong>
+                                    <span>armandst05@outlook.com</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i><strong>Telefono: </strong> <span>+52
+                                        4659553714</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i><strong>Ciudad: </strong> <span>Rincon de
+                                        Romos, Ags.</span></li>
 
                             </ul>
                         </div>
@@ -122,7 +128,8 @@
             <div class="divider"></div>
             <p class="sub-para">Me especializo en el desarrollo backend, aunque aún no cuento con experiencia profesional formal. Estoy comprometido a seguir estudiando y mejorando en el ámbito del backend, además estoy dispuesto a iniciar mi especialización en el desarrollo
                 frontend para ampliar mis habilidades y contribuir de manera integral a los proyectos. <br> <br> Como líder, me caracterizo por comprender las necesidades del equipo y fomentar un ambiente colaborativo para alcanzar objetivos comunes.
-                Estoy comprometido a seguir creciendo profesionalmente y aportar mis habilidades al éxito del equipo.</p>
+                Estoy comprometido a seguir creciendo profesionalmente y aportar mis habilidades al éxito del equipo.
+            </p>
             <div class="sub-heading">
                 <h3>Habilidades Tecnicas</h3>
             </div>
@@ -131,7 +138,6 @@
                     <i class="fa-brands fa-java"></i>
                     <strong>35%</strong>
                     <p>Java</p>
-                    <!--<p class="sub-para">El lenguaje de programación que estudie desde la preparatoria, aunque en la universidad decidí seguir otros lenguajes de programación</p>  -->
                     <div class="progress-bar">
                         <div class="progress" style="--width: 35%;"></div>
                     </div>
@@ -280,7 +286,8 @@
             </div>
             <div class="titulos-container">
                 <button id="verEstudios" type="button" name="Hover" onclick="mostrarEstudios()">Estudios</button>
-                <button id="verTrabajos" type="button" name="Hover" onclick="mostrarTrabajos()">Experiencia Laboral</button>
+                <button id="verTrabajos" type="button" name="Hover" onclick="mostrarTrabajos()">Experiencia
+                    Laboral</button>
 
             </div>
 
@@ -423,7 +430,8 @@
                     <div class="info-empresa">
                         <h2>Contactame</h2>
                         <ul class="servicios">
-                            <li><i class="fa fa-map-marker"></i> Tlatoani #216, Estancia de Chora, Rincon de Romos, Ags</li>
+                            <li><i class="fa fa-map-marker"></i> Tlatoani #216, Estancia de Chora, Rincon de Romos, Ags
+                            </li>
                             <li><i class="fa fa-mobile"></i> +52 465 955 3714</li>
                             <li><i class="fa fa-envelope"></i>armandst05@outlook.com</li>
                         </ul>
@@ -470,7 +478,7 @@
                         <!-- Script para generar las burbujas -->
                         <script>
                             for (var i = 0; i < 128; i++) {
-                                document.write(`<div class="bubble" style="--size:${2+Math.random()*4}rem; --distance:${6+Math.random()*4}rem; --position:${-5+Math.random()*110}%; --time:${2+Math.random()*2}s; --delay:${-1*(2+Math.random()*2)}s;"></div>`);
+                                document.write(`<div class="bubble" style="--size:${2 + Math.random() * 4}rem; --distance:${6 + Math.random() * 4}rem; --position:${-5 + Math.random() * 110}%; --time:${2 + Math.random() * 2}s; --delay:${-1 * (2 + Math.random() * 2)}s;"></div>`);
                             }
                         </script>
                     </div>
@@ -485,7 +493,8 @@
                 <defs>
                     <filter id="blob">
                         <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                            result="blob" />
                         <feComposite in="SourceGraphic" in2="blob" operator="atop" />
                     </filter>
                 </defs>

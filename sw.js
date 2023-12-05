@@ -5,8 +5,32 @@ const archivosCahce = [
     "/css/style.css",
     "/js/app.js",
     "/js/script.js",
-    "/manifest.json",
-    "/img/icons"
+    "/js/contacto.js",
+    "img/icons/Icon-72.png",
+    "img/icons/Icon-120.png",
+    "img/icons/Icon-128.png",
+    "img/icons/Icon-144.png",
+    "img/icons/Icon-152.png",
+    "img/icons/Icon-196.png",
+    "img/icons/Icon-256.png",
+    "img/icons/Icon-512.png",
+    "img/icons/icon72.png",
+    "img/icons/icon120.png",
+    "img/icons/icon128.png",
+    "img/icons/icon144.png",
+    "img/icons/icon152.png",
+    "img/icons/icon196.png",
+    "img/icons/icon256.png",
+    "img/icons/icon512.png",
+    "/img/149071.png",
+    "/img/ciclismo.jpeg",
+    "/img/fondo.jpeg",
+    "/img/futbol.jpeg",
+    "/img/gym.jpeg",
+    "/img/mia.jpeg",
+    "/img/paseos.jpeg",
+    "/img/vagabond.png",
+    "/img/videojuego.jpg"
 ]
 
 self.addEventListener('install', e => {
@@ -25,7 +49,7 @@ self.addEventListener('activate', e => {
 
 
 self.addEventListener('fetch', e => {
-    console.log('fetch..', e)
+    // console.log('fetch..', e)
     e.respondWith(
         caches.match(e.request)
         .then(respuestaCache => {

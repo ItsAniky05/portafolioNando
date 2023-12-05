@@ -1,5 +1,4 @@
 {
-
     "name": "Examen EP3",
     "short_name": "PWAArmandST",
     "start_url": "/index.html",
@@ -8,7 +7,8 @@
     "orientation": "portrait",
     "background_color": "black",
     "theme_color": "black",
-    "icons": [{
+    "icons": [
+        {
             "src": "img/icons/Icon-72.png",
             "type": "image/png",
             "sizes": "72x72"
@@ -47,7 +47,12 @@
             "src": "img/icons/Icon-512.png",
             "type": "image/png",
             "sizes": "512x512"
+        },
+        {
+            "src": "img/icons/Icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
         }
-
     ]
 }
